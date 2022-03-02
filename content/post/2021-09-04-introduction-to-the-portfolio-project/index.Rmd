@@ -3,7 +3,7 @@ title: "Introduction to the Portfolio Project"
 author: "Matthew Krachey"
 date: 2021-09-04
 categories: ["R"]
-tags: ["R", "hugo"]
+tags: ["R", "hugo", "blogdown", "netlify", "rstudio", "github"]
 ---
 
 # Introduction
