@@ -9,6 +9,8 @@ tags:
 title: Creating a New Theme
 ---
 
+*Note*: This post comes with use of the `minimal` theme from Calin Tataru (`calintat`).^[The post is publicly licensed under the MIT license as part of the `minimal` theme.] We decided to leave it on the Portfolio as it has some excellent advice about working with themes and Hugo.
+
 ## Introduction
 
 This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme.
@@ -44,7 +46,6 @@ title = "creating a new theme"
 bah and humbug
 $
 ```
-
 
 ## Some Definitions
 

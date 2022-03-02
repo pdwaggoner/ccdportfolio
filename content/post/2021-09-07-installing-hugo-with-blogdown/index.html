@@ -1,0 +1,41 @@
+---
+title: "Installing Hugo with Blogdown"
+author: "Matthew Krachey, Philip Waggoner"
+date: 2021-09-07
+categories: ["R"]
+tags: ["R", "hugo", "blogdown"]
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>In this post, we will install the <code>blogdown</code> package in R, then Hugo, and then a Hugo theme. Note that you should have an updated installation of R on your machine, and preferably an IDE<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> to work from. We prefer RStudio, but any will work (e.g., PyCharm, etc.).</p>
+</div>
+<div id="installing-blogdown-and-hugo" class="section level1">
+<h1>Installing <code>blogdown</code> and Hugo</h1>
+<p>In order to install and use <code>blogdown</code>, we run the following to install the package and then load the library as we would for any other R package.</p>
+<pre class="r"><code>install.packages(&quot;blogdown&quot;, 
+                 repos = &quot;https://cloud.r-project.org/&quot;)
+
+library(blogdown)</code></pre>
+<p>Next, to install Hugo, run <code>install_hugo()</code> from <code>blogdown</code>.</p>
+<pre class="r"><code>install_hugo(force = TRUE)</code></pre>
+</div>
+<div id="installing-themes" class="section level1">
+<h1>Installing Themes</h1>
+<p>Hugo has tons of <a href="https://themes.gohugo.io/">pre-configured themes</a>. You should select a theme that supports blogging, as there are a variety of themes that serve various functions. But you should also select a theme that is well designed, with minimal distractions. Content and site organization should be very clear to any visitor, and the more streamlined the design, the easier it will be to interact with your site.</p>
+<p>There are many Hugo themes out there, some which are are not included in that set of themes linked above. So, if you don’t find a theme you like from the link above, simply Google something like “minimalist Hugo themes” or “clean Hugo themes” to start exploring.</p>
+<p>Our site uses <a href="https://github.com/calintat/minimal"><code>minimal</code></a>. To install <code>minimal</code>, run <code>install_theme()</code> from <code>blogdown</code>, and be sure to put the developer (Github username) and theme in quotes.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<pre class="r"><code>install_theme(theme = &quot;calintat/minimal&quot;, 
+              force = TRUE)</code></pre>
+<p>That’s it! You’ve now installed Blogdown, Hugo and a theme on your computer. In the next post we will describe how to connect your site to Netlify.</p>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p><strong>I</strong>ntegrated <strong>D</strong>evelopment <strong>E</strong>nvironment<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Note: if you are just getting started with Hugo and <code>blogdown</code>, the default theme, if you follow Yihui’s advice, is <code>hugo-lithium</code> (<a href="https://github.com/yihui/hugo-lithium" class="uri">https://github.com/yihui/hugo-lithium</a>). In this case, to change the value passed to <code>theme</code> to “yihui/hugo-lithium”.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
