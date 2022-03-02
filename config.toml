@@ -2,17 +2,17 @@ baseURL = "http://example.com/"
 languageCode = "en-us"
 title = "The Portfolio Project"
 theme = "minimal"
-disqusShortname = "username" # delete this to disable disqus comments
+disqusShortname = "asa_ccd" # delete disable disqus comments
 googleAnalytics = ""
 
 [params]
     author = " "
-    description = "A Technology Project from the American Statistical Association Committee on Career Development"
+    description = "A Professional Development Resource from the American Statistical Association Committee on Career Development"
     githubUsername = "#"
     accent = "blue"
     showBorder = true
     backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
+    font = "Raleway"
     highlight = true
     highlightStyle = "default"
     highlightLanguages = ["r", "python", "shell", "html"]

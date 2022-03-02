@@ -3,13 +3,13 @@ description: What is the Portfolio Project?
 title: About
 ---
 
-The Portfolio Project is a special effort from the American Statistical Association's (ASA) Committee on Career Development (CCD). The goal of the project is pretty simple:
+The Portfolio Project is a special effort from the American Statistical Association's (ASA) [Committee on Career Development](/members/) (CCD). The goal of the project is pretty simple...
 
-> Offer tools, resources, and help to scholars and practitioners to develop and cultivate a vibrant professional online presence.
+> To offer tools, resources, and technology to scholars and practitioners for developing and cultivating a vibrant, professional online presence.
 
 There is a bit packed into this definition. Let's break it down a bit. 
 
-  - **Tools, resources, and help**: We aim to develop and offer a variety of original content (usually in the form of a blog post at this site) to readers covering a host of topics centered around developing and maintaining a high quality online showcase. To this end, content will range from interviews with experts in relevant subfields and long-form narratives covering key topics and nuanced debates in various subfields, to technical tips and tricks aimed at deepening not only the technical skillset of our readers, but also to demonstrate best practices in showcasing these skills to an interested audience.
+  - **Tools, resources, and technology**: A functional piece of this project and goal is to offer original content (usually in the form of a blog post hosted at this site) to readers covering a host of topics centered around developing and maintaining a high-quality online showcase. To this end, content will range from interviews with experts and long-form narratives covering key topics and nuanced debates in various subfields, to technical tips and tricks aimed at deepening not only the technical skillset of our readers, but also to *demonstrate* best practices in showcasing these skills to a wide audience.
   
   - **Scholars and practitioners**: Though aimed at younger scholars still actively carving out space in an increasingly competitive landscape, our goal is to craft content of relevance to scholars, researchers, and practitioners at all career stages to either learn new techniques and tools, or brush up on existing skills.
   
