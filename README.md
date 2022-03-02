@@ -1,6 +1,6 @@
 # The Portfolio Project
 
-Welcome to the newly-designed Portfolio Project from the American Statistical Association's Committee on Career Development. We are excited to share this with our community, broadly defined. 
+Welcome to the newly-designed Portfolio Project from the American Statistical Association's [Committee on Career Development](https://community.amstat.org/ccd/home). We are excited to share this with our community, broadly defined. 
 
 In brief, the Portfolio Project is interested in sharing resources for developing and maintaining a strong online presence in an increasingly crowded and competitive field. We hope that the content shared through the Project is useful to scholars, practitioners, and researchers at all skill and career levels in statistics, data science, and beyond. 
 
