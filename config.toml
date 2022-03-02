@@ -1,4 +1,4 @@
-baseURL = "http://example.com/"
+baseURL = "https://ccdportfolio.netlify.app/"
 languageCode = "en-us"
 title = "The Portfolio Project"
 theme = "minimal"
