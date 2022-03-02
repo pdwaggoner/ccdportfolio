@@ -8,26 +8,26 @@ tags: ["R", "hugo"]
 
 # Introduction
 
-In this post we introduce the [American Statistical Association's (ASA)](https://www.amstat.org/) [Committee on Career Developments (CCD)](https://community.amstat.org/ccd/home) Portfolio project.  The goal of this project is to make it easier for people to build their own personal portfolio website.  In this project we will lay out and explain the installation of an opinionated set of technology tools, as well as some advice in the best ways to effectively communicate technical skills in such a website.  Additionally, we will provide some advice on how to use the website to add to your personal brand and link posts to social media to build a reputation.
-
-Why should you build a personal portfolio website?  There are a few reasons: 
-
-  1. To communicate your diverse technical skills to potential employers or graduate advisers in a more thoughtful, comprehensive way than is possible through a typical interview process.  A well crafted portfolio site not only allows one to demonstrate statistical and programming skills, but also the ability to effectively communicate.
-  2. As a way to document for work that you have done in a way that is both easy for you to find to remind yourself of the work or to share out to others at any date
-  3. As a way to help find individuals with similar research interests
-  4. To learn how to build a website
-  5. To give opportunities for the unexpected
+In this post we introduce the [American Statistical Association's (ASA)](https://www.amstat.org/) [Committee on Career Developments (CCD)](https://community.amstat.org/ccd/home) Portfolio project. The goal of this project is to make it easier for people to build their own personal portfolio website. In this first post we will lay out and explain the installation of an opinionated set of technology tools, as well as some advice in the best ways to effectively communicate technical skills in such a website. We will also provide some advice on how to use the website to add to your personal brand and link posts to social media to develop and maintain a good professional reputation. Read more about the Portfolio Project and our vision for it on the **About** page, linked in the menu. 
   
 # Technologies we will be using and promoting
 
-There is a very wide variety of potential blogging and website platforms, but the focus of the project is to be able to build a simple framework to communicate statistical and statistical programming abilities and not web development, so we chose a set of technologies that will make this the easiest.  For reference, all of these tools are being used for this website, and most certainly for this post.  The tools that we will be focused on here are:
+There is a very wide variety of potential blogging and website platforms, but the focus of the project is to be able to build a simple framework to communicate statistical, data science, and programming abilities rather than web development. As such, we chose a set of technologies that will make this the easiest, from our perspective. Further, most of these tools are based in or adjacent to the R statistical programming language, which should be familiar to most of the people who find themselves reading this, and engaging with CCD's Portfolio Project. Thus, the syntactic learning curve should hopefully be manageable. 
 
-  1. [R](https://www.r-project.org/) (though some posts may use Python).  It's free and open sources, so that readers of your blog posts can actually try out the code that you are using without needing to pay for a license. It has an enormous set of statistical packages.  Many statisticians use it, so the code won't be foreign for a large number of users.  We will be pretty agnostic on the text editor or Integrated Development Environment, though [RStudio](https://www.rstudio.com/) is recommended, though any variety of choices here are perfectly great.
-  2. [Blogdown](https://pkgs.rstudio.com/blogdown/)  This R package makes it easy to create blog websites using [Rmarkdown](https://rmarkdown.rstudio.com/) and Hugo.
-  3. [Hugo](https://gohugo.io/)  This Go language based framework is the target from blogdown.  It build fast, static websites that support a fair bit of customization, has a lot of [user-built themes](https://themes.gohugo.io/) and is very customizable.
-  4. [Netlify](https://www.netlify.com/)  This company provides a very easy and (for low volume sites) free hosting and deployment.
-  5. [Github](https://github.com/)  Using Github to host your blog code, Netlify will automatically detect changes on the master branch, build and deploy the updated website very, very quickly.
+For reference, all of these tools are being used to build and maintain the Portfolio Project's website. Where possible, we will demonstrate (rather than merely explain) some best practices. Here's a list of what we recommend to at least get started:
+
+  1. [R](https://www.r-project.org/) is free and open source. Many statisticians use it, so much of the code won't be foreign for a large number of readers. Most posts and content will focus on and around R, though at times we will bring in Python where is makes sense. 
+  
+  2. [RStudio](https://www.rstudio.com/) is the recommended IDE given clear integration with R, though any variety of choices here are perfectly great (e.g., PyCharm, Atom, VS Code, etc.).
+  
+  3. [Blogdown](https://pkgs.rstudio.com/blogdown/) is an R package that makes it extremely easy to create blog websites using [Rmarkdown](https://rmarkdown.rstudio.com/) and Hugo.
+  
+  4. [Hugo](https://gohugo.io/) is Go language based framework and is the target from `blogdown`. It facilitates building fast, static websites that support a lot of customization, and has many [user-built themes](https://themes.gohugo.io/). 
+  
+  5. [Netlify](https://www.netlify.com/) is a company that provides an easy and (for low volume sites) free hosting and deployment. Hence, we decided to keep the `.netlify.app` in our domain to demonstrate use and value of Netlify for similar projects and sites.
+  
+  6. [Github](https://github.com/) is a lightweight (no m,ajor dependency requirement) branch-based version control system for building and collaborating on a variety of code projects, including building sites like these. And it's free! Using Github to host your blog code, Netlify will automatically detect changes on the main branch, build and deploy the updated website very quickly.
   
 # Initial steps
 
-We will release a succession of blogpost in the coming weeks, months, and years.  In the near term, we will focus on the initial installation process to get your site up and going.  From there we will provide some examples, tips, guest posts etc to help you make the most out of your Portfolio site!
+It is our goal to release new posts on a variety of topics with relatively common frequency. In the near term, we will focus on the initial installation process to get your site up and going. From there we will provide some examples, tips, guest posts etc to help you make the most out of your Portfolio site!
