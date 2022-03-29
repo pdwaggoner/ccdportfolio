@@ -27,7 +27,7 @@ We are excited to pool collective knowledge about careers in data science and st
 
 To contribute, you can either [reach out directly](mailto:philip.waggoner@yougov.com) with a request or post, and we will post it for you. Or, you can directly contribute by suggesting a change via pull request. To do so: 
 
-  1. Fork the repo
+  1. Fork the [repo](https://github.com/pdwaggoner/ccdportfolio)
   2. Add your post in the `.../content/blog` directory as a new `.md` file
   3. Request a merge of your branch
  
