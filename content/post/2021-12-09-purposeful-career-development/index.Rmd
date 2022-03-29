@@ -3,6 +3,7 @@ title: "Purposeful Career Development"
 author: "Esther Pearson"
 date: 2021-12-08
 categories: ["Career Development"]
+tags: ["career development"]
 ---
 
 The [American Statistical Association's (ASA)](https://www.amstat.org/) [Committee on Career Developments (CCD)](https://community.amstat.org/ccd/home) Portfolio project focuses on building a personal portfolio website. This focus is purposed with making career development intentional and not an activity that is only undertaken when there is a request for a portfolio from a perspective employer (business or academia) is needed. Career development should and must be ongoing from start of a career until its completion. This is possible with a personal portfolio website and an e-portfolio.
