@@ -28,8 +28,8 @@ googleAnalytics = ""
     weight = 2
 
 [[menu.main]]
-    url = "/post/"
-    name = "Posts"
+    url = "/blog/"
+    name = "Blog"
     weight = 3
 
 [[menu.main]]
