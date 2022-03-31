@@ -1,6 +1,7 @@
 ---
 date: "2022-03-29"
 draft: false
+author: Philip Waggoner
 tags:
 - R
 - python
