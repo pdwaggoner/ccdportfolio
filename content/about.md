@@ -25,6 +25,8 @@ In short, a portfolio is an incredible opportunity to meet the largely *expected
 
 We are excited to pool collective knowledge about careers in data science and statistics. To this end, we welcome contributions to the blog re: data science, statistics, technology, professional development, real world data experience and anecdotes, and so on. 
 
+A valuable resource, *which our blog will soon link to*, is [R-Bloggers](https://www.r-bloggers.com). Check it out, and look for CCD posts to show up on R-Bloggers!
+
 To contribute, you can either [reach out directly](mailto:philip.waggoner@yougov.com) with a request or post, and we will post it for you. Or, you can directly contribute by suggesting a change via pull request. To do so: 
 
   1. Fork the [repo](https://github.com/pdwaggoner/ccdportfolio)
