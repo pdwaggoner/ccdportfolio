@@ -20,17 +20,3 @@ There is a bit packed into this definition. Let's break it down a bit.
 In short, a portfolio is an incredible opportunity to meet the largely *expected* challenge of "showing, not telling." This challenge combined with the competitiveness of the fields of statistics and data science imply a need for not only *establishing* an online presence but establishing a *high quality, effective, and convincing* online presence. As such, the Portfolio Project from the CCD intends to offer resources to help our members and readers on their way to standing out in this increasingly crowded space. 
 
 *Note*: We are actively developing and expanding this project. So, please [reach out](mailto:philip.waggoner@yougov.com) to us with any ideas for content, blogs, demonstrations, etc. We are happy to consider any ideas.
-
-## Interested in Contributing to the Blog?
-
-We are excited to pool collective knowledge about careers in data science and statistics. To this end, we welcome contributions to the blog re: data science, statistics, technology, professional development, real world data experience and anecdotes, and so on. 
-
-A valuable resource, *which our blog will soon link to*, is [R-Bloggers](https://www.r-bloggers.com). Check it out, and look for CCD posts to show up on R-Bloggers!
-
-To contribute, you can either [reach out directly](mailto:philip.waggoner@yougov.com) with a request or post, and we will post it for you. Or, you can directly contribute by suggesting a change via pull request. To do so: 
-
-  1. Fork the [repo](https://github.com/pdwaggoner/ccdportfolio)
-  2. Add your post in the `.../content/blog` directory as a new `.md` file
-  3. Request a merge of your branch
- 
-We will quickly review, and merge the branch to publish your post if it is aligned with the CCD's interests. If it is not immediately obvious how your post fits in, we will comment on the pull request with questions, comments, and a general review to ensure we are on the same page before posting. 
