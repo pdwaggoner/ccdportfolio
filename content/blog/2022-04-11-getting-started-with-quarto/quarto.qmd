@@ -3,7 +3,7 @@ title: "Getting Started with Quarto"
 author: "Philip Waggoner"
 date: 2022-04-11
 categories: ["quarto"]
-tags: ["quarto", "markdown", "dynamic documents"]
+tags: ["quarto", "markdown", "dynamic documents", "R", "Python", "Julia"]
 ---
 
 # Brief Overview
@@ -79,3 +79,18 @@ julia_setup(
 ```
 
 From here, set up a Julia code chunk (via \`\`\`\{julia\}) and you're off! 
+
+```{julia}
+#| eval: false
+
+using PlotlyJS, CSV, DataFrames
+
+df = dataset(DataFrame, "iris")
+plot(
+    df, x=:sepal_width, y=:sepal_length, color=:species,
+    marker=attr(size=:petal_length, sizeref=maximum(df.petal_length) / (20^2), sizemode="area"),
+    mode="markers"
+)
+```
+
+![](quarto_files/figure-html/iris_jl.png)
