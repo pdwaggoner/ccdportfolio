@@ -1,16 +1,20 @@
 ---
-title: "Getting Started with Quarto"
-author: "Philip Waggoner"
-date: 2022-04-11
-categories: ["quarto"]
-tags: ["quarto", "markdown", "dynamic documents", "R", "Python", "Julia"]
+date: "2022-04-11"
+draft: false
+author: Philip Waggoner
+tags:
+- quarto
+- markdown
+- dynamic documents
+- R
+- python
+- julia
+title: Getting Started with Quarto
 ---
 
 # Brief Overview
 
 In this brief post, we are interested in introducing readers to Quarto, which, to steal from their website, is "an open-source scientific and technical publishing system built on Pandoc." The use of Quarto primarily takes place within an IDE, e.g., RStudio, Jupyter Notebooks, etc.
-
-In fact, you might even notice this blog post is formatted a bit different. That's because we are using Quarto to write it. So what is Quarto in practice? Keep reading for a quick overview and demo.
 
 The idea is to create dynamic documents and render the output to pretty HTML (or other types of) files. This is very much like rendering from Rmarkdown. Similarly, Quarto is a markdown flavor seen in the file extension, `.qmd`. This is similar to Github flavored markdown (`.md`), Rmarkdown (`.Rmd`), YAML headers (`.yaml`, which stands for "yet another markdown language"), and many others. 
 
@@ -26,13 +30,17 @@ Take a look at their site to learn more and follow along with simple tutorials i
 
 # Quick Demo
 
-Let's take a look at a quick demonstration of Quarto and test it's capabilities. We will incorporate R, Python, and Julia in a single document, and render the output. Importantly, as with Rmarkdown for example, you can hide (`#| echo: false`) or show (`#| echo: true`, or omit any echo command from within the chunk, and it will display the code by default) the code used to render the output. The only difference is all code chunk options are set *within* the code chunk via `#|`, e.g., to set a figure title, `#| fig-cap: "Here is a figure title"`.
+Let's take a look at a quick demonstration of Quarto and test it's capabilities. We will incorporate R, Python, and Julia in a single document, and then render the output.
+
+To start a code chunk, begin with three backticks and then the name of the language in braces, e.g., ```{python}.
+
+Importantly, as with Rmarkdown, you can hide (`#| echo: false`) or show (`#| echo: true`, or omit any echo command from within the chunk, and it will display the code by default) the code used to render the output. The only difference is all code chunk options are set *within* the code chunk via `#|`, e.g., to set a figure title, `#| fig-cap: "Here is a figure title"`.
 
 **Of note**: to include code from a specific language, that language must be installed on your machine. For example, you need to make sure R is installed, or Julia if using Julia, along with the [`JuliaCall` R package](https://CRAN.R-project.org/package=JuliaCall) installed to properly execute Julia code. If you get an error when trying to render in a given language, chances are that language is not installed on your computer. Quarto's error messages are pretty informative unlike LaTeX, for example.
 
 ## R
 
-Here is a simple case starting in R. We will echo all code for simplicity and consistency. 
+Here is a simple case starting in R.
 
 ```{r}
 library(ggplot2)
@@ -41,9 +49,11 @@ ggplot(mtcars, aes(x=wt, y=mpg, color=cyl)) +
   geom_point()
 ```
 
+![R Output](/blog/quarto_figs/r.png)
+
 ## Python
 
-Here is a simple case starting in Python. As with ensuring the language itself is installed on your machine, users must also ensure environments, modules and packages are also installed before attempting to execute code in Quarto (e.g., `pip install seaborn`).
+Next, here is a simple case starting in Python. As with ensuring the language itself is installed on your machine, users must also ensure environments, modules and packages are also installed before attempting to execute code in Quarto (e.g., `pip install seaborn`).
 
 ```{python}
 import matplotlib.pyplot as plt
@@ -59,13 +69,13 @@ plt.xlabel(iris.feature_names[0])
 plt.ylabel(iris.feature_names[1])
 ```
 
+![Python Output](/blog/quarto_figs/python.png)
+
 ## Julia
 
 As noted above, be sure the [Julia language](https://julialang.org/downloads/) is installed on your machine first. But if you forget, you can directly install from within RStudio, once the `JuliaCall` package is installed and loaded. Do so by setting `installJulia = TRUE` in the `julia_setup()` call, e.g., 
 
-```{r}
-#| eval: false
-
+```
 julia_setup(
   JULIA_HOME = NULL,
   verbose = TRUE,
@@ -78,11 +88,9 @@ julia_setup(
 )
 ```
 
-From here, set up a Julia code chunk (via \`\`\`\{julia\}) and you're off! 
+From here, set up a Julia code chunk (via \`\`\`{julia}), make sure your packages are loaded (e.g., `Pkg.add("DataFrames")`), and you're off! 
 
 ```{julia}
-#| eval: false
-
 using PlotlyJS, CSV, DataFrames
 
 df = dataset(DataFrame, "iris")
@@ -93,4 +101,4 @@ plot(
 )
 ```
 
-![](quarto_files/figure-html/iris_jl.png)
+![Julia Output](/blog/quarto_figs/julia.png)
