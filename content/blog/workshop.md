@@ -3,7 +3,10 @@ date: "2022-05-13"
 draft: false
 author: Philip Waggoner
 tags:
-- quarto
+- workshop
+- ASA
+- CCD
+- portfolio project
 title: May 2022 Portfolio Project Workshop
 ---
 
